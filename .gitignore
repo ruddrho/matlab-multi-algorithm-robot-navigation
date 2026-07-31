@@ -1,0 +1,14 @@
+# MATLAB temporary files
+*.asv
+*.autosave
+*.m~
+*.slxc
+
+# Keep lightweight example PNG/CSV results in Git.
+# Ignore large generated media and MATLAB data.
+*.avi
+*.mat
+
+# Operating-system files
+.DS_Store
+Thumbs.db
