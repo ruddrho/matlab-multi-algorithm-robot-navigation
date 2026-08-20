@@ -51,6 +51,7 @@ The final animation frame shows the search expansion and selected route for all 
 ### Five-robot navigation dashboard
 
 [![Five-robot navigation and live occupancy maps](results/multi_algorithm_robot_navigation_final.png)](results/multi_algorithm_robot_navigation.mp4)
+The dashboard displays the shared final simulation clock, while the table below reports each robot's individual goal-completion time.
 
 [▶ Watch the five-robot navigation video](results/multi_algorithm_robot_navigation.mp4)
 
@@ -136,8 +137,15 @@ The example run used:
 ├── goalSelection.m
 ├── hideAxesToolbars.m
 └── results/
+    ├── multi_algorithm_robot_navigation.mp4
+    ├── multi_algorithm_robot_navigation_final.png
+    ├── multi_algorithm_robot_navigation_metrics.csv
+    ├── navigation_results.csv
+    ├── planning_algorithm_comparison.png
+    ├── planning_algorithm_comparison_metrics.csv
+    ├── planning_algorithms_animation_final.png
     ├── planning_algorithms_comparison_animation.mp4
-    └── multi_algorithm_robot_navigation.mp4
+    └── slam_live_occupancy_map.png
 ```
 
 ## Generated files
