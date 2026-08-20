@@ -101,8 +101,7 @@ The example run used:
 ## Repository structure
 
 ```text
-.
-├── GITHUB_UPLOAD_GUIDE.md
+
 ├── main.m
 ├── utilities.m
 ├── comparePlanningAlgorithms.m
@@ -163,6 +162,9 @@ results/multi_algorithm_robot_navigation.mp4
 ```
 
 The repository keeps the MP4 demonstrations and lightweight example PNG/CSV files. Generated AVI and MAT files remain ignored because they are large or reproducible.
+The SLAM pipeline uses odometry prediction, correlative scan matching, and
+log-odds occupancy updates. An optional simulator-reference pose anchor is used
+to limit accumulated map-frame drift in the demonstration environment.
 
 ## Reproducibility
 
@@ -176,4 +178,4 @@ For a defensible algorithm study, run many trials across multiple seeds, environ
 - LiDAR measurements, vehicle dynamics, and occupancy mapping are simplified.
 - The live maps are simulation outputs and are not validated against physical sensors.
 - The example metrics represent one environment and one selected goal.
-- A public repository needs an explicit license if others should be allowed to reuse the code.
+
