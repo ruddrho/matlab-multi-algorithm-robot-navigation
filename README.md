@@ -74,6 +74,7 @@ These observations describe one example run only. They are not statistical evide
 - MATLAB; R2020a or newer is recommended
 - A desktop session capable of showing interactive figures
 - No third-party packages
+- - GitHub Actions runs a non-interactive smoke test with MATLAB R2024b.
 
 The project implements the planners, collision checking, DWA controller, simulated LiDAR, and occupancy mapping in the included MATLAB files.
 
