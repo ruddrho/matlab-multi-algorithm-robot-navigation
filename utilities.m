@@ -212,7 +212,7 @@ cfg.robot.wheelWidth = 0.12;
 cfg.robot.headingArrowLength = 0.72;
 
 cfg.robot.minimumLinearVelocity = 0.0;
-cfg.robot.maximumLinearVelocity = 5.70;  % 2x faster than previous project
+cfg.robot.maximumLinearVelocity = 5.70;  % Maximum linear velocity (m/s)
 cfg.robot.maximumAngularVelocity = 3.70;
 cfg.robot.maximumLinearAcceleration = 3.90;
 cfg.robot.maximumLinearDeceleration = 5.10;
@@ -249,7 +249,7 @@ cfg.dwa.weights.recovery = 0.00;
 %% Hybrid global path planning and continuous path following
 cfg.path.gridResolution = 8;          % occupancy cells per metre
 cfg.path.inflationMargin = 0.12;      % extra safety around robot body
-cfg.path.resampleSpacing = 0.08;   % denser reference line      % path sample spacing (m)
+cfg.path.resampleSpacing = 0.08;   % Path sample spacing (m)
 cfg.path.searchWindow = 160;          % nearest-point search window
 cfg.path.minimumCruiseSpeed = 0.90;
 cfg.path.maximumCrossTrackError = 1.60;
