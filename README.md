@@ -103,7 +103,9 @@ The example run used:
 ## Repository structure
 
 ```text
-
+├── .github/
+│   └── workflows/
+│       └── matlab-ci.yml
 ├── main.m
 ├── utilities.m
 ├── comparePlanningAlgorithms.m
