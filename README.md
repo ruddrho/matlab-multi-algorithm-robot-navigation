@@ -1,4 +1,5 @@
 # Multi-Algorithm Robot Navigation with Live SLAM
+[![MATLAB CI](https://github.com/ruddrho/matlab-multi-algorithm-robot-navigation/actions/workflows/matlab-ci.yml/badge.svg)](https://github.com/ruddrho/matlab-multi-algorithm-robot-navigation/actions/workflows/matlab-ci.yml)
 
 A MATLAB simulation for comparing five global path-planning algorithms under a shared autonomous-navigation setup:
 
