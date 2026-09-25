@@ -4,11 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <p align="center">
-  <img src="matlab_multi_algorithm_robot_navigation.gif"
-       alt="Multi-Algorithm Robot Navigation with Live SLAM Simulation"
-       width="900">
+  <img
+    src="./matlab_multi_algorithm_robot_navigation(1).gif"
+    alt="Multi-Algorithm Robot Navigation with Live SLAM Simulation"
+    width="900"
+  />
 </p>
-
 A MATLAB simulation for comparing five global path-planning algorithms under a shared autonomous-navigation setup:
 
 - A*
